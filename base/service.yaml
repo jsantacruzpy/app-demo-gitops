@@ -1,0 +1,13 @@
+# base/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: app-demo
+  namespace: default
+spec:
+  selector:
+    app: app-demo
+  ports:
+  - port: 80
+    targetPort: 80
+  type: LoadBalancer
