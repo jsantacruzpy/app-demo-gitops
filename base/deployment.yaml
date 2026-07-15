@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: app
-        image: jsantacruzpy/app-demo:19
+        image: jsantacruzpy/app-demo:20
         ports:
         - containerPort: 80
