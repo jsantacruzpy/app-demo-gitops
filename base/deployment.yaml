@@ -14,9 +14,9 @@ spec:
       labels:
         app: app-demo
     spec:
-    imagePullSecrets:
-      - name: harbor-pull-secret    
-    containers:
+      imagePullSecrets:
+      - name: harbor-pull-secret
+      containers:
       - name: app
         image: harbor.lab.local/cicd/app-demo:24
         ports:
