@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: app
-        image: harbor.lab.local/cicd/app-demo:20
+        image: harbor.lab.local/cicd/app-demo:24
         ports:
         - containerPort: 80
